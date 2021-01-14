@@ -1,4 +1,4 @@
-package com.eziosoft.dank;
+package com.eziosoft.threedeepatch;
 
 import net.fabricmc.api.ModInitializer;
 

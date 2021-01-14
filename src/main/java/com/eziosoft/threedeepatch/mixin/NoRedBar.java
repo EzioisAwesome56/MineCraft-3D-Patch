@@ -1,9 +1,6 @@
-package com.eziosoft.dank.mixin;
+package com.eziosoft.threedeepatch.mixin;
 
-import com.mojang.blaze3d.platform.GlStateManager;
 import net.minecraft.client.MinecraftClient;
-import net.minecraft.client.font.TextRenderer;
-import net.minecraft.client.gui.hud.InGameHud;
 import net.minecraft.client.render.GameRenderer;
 import net.minecraft.resource.SynchronousResourceReloadListener;
 import org.spongepowered.asm.mixin.Mixin;

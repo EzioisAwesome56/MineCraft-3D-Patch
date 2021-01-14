@@ -1,8 +1,8 @@
-package com.eziosoft.dank.mixin;
+package com.eziosoft.threedeepatch.mixin;
 
 
-import com.eziosoft.dank.CorrectArgs;
-import com.eziosoft.dank.Loader;
+import com.eziosoft.threedeepatch.CorrectArgs;
+import com.eziosoft.threedeepatch.Loader;
 import joptsimple.OptionParser;
 import joptsimple.OptionSet;
 import net.minecraft.client.main.Main;

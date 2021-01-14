@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "side": "universal",
   "initializers": [
-    "com.eziosoft.dank.Loader"
+    "com.eziosoft.threedeepatch.Loader"
   ],
   "requires": {
     "fabric": "*"

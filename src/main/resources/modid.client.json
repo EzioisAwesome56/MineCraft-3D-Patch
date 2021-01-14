@@ -1,6 +1,6 @@
 {
   "required": true,
-  "package": "com.eziosoft.dank.mixin",
+  "package": "com.eziosoft.threedeepatch.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
     "Protocol",
