@@ -1,7 +1,7 @@
 {
-  "id": "threedeecrack",
-  "name": "MineCraft 3D Crack",
-  "description": "Who would buy a 90s game in 2021, anyway?",
+  "id": "threedeepatch",
+  "name": "MineCraft 3D Patch",
+  "description": "Patching 3D shareware to make it more playable",
   "version": "1.0.0",
   "side": "universal",
   "initializers": [

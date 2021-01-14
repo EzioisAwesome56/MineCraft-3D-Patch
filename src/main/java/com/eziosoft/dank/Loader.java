@@ -12,6 +12,6 @@ public class Loader implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
-		System.out.println("Minecraft 3D crack loaded!");
+		System.out.println("Minecraft 3D Patch loaded!");
 	}
 }
