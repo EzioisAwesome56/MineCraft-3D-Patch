@@ -1,20 +1,11 @@
 package com.eziosoft.threedeepatch.mixin;
 
-import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.render.GameRenderer;
-import net.minecraft.resource.SynchronousResourceReloadListener;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Overwrite;
-import org.spongepowered.asm.mixin.Shadow;
 
 @Mixin(value = GameRenderer.class)
-public abstract class NoRedBar implements AutoCloseable, SynchronousResourceReloadListener {
-
-    @Shadow private final MinecraftClient client;
-
-    protected NoRedBar(MinecraftClient client) {
-        this.client = client;
-    }
+public abstract class NoRedBar {
 
     // this draws the stupid red bar at the top of the screen.
     // Making this function do nothing will stop this from happening.

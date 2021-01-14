@@ -1,12 +1,11 @@
 package com.eziosoft.threedeepatch.mixin;
 
-import com.mojang.bridge.game.GameVersion;
 import net.minecraft.MinecraftVersion;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Overwrite;
 
 @Mixin(value = MinecraftVersion.class)
-public abstract class Protocol implements GameVersion {
+public class Protocol {
 
 	@Overwrite
 	public int getProtocolVersion() {
