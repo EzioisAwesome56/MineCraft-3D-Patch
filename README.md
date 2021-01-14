@@ -1,16 +1,8 @@
-# Fabric Example Mod
+# MineCraft 3D Shareware Patch
+This will  patch the 2019 april fools release of minecraft, 3D Shareware v1,34, into a mostly functioning full release of minecraft.
 
-## Setup
+## Installation
+Requires fabric loader version 0.3.7.110 to be installed ontop of 3D shareware. Fabric api 0.2.6.119 is required as well. Download the newest release and put it into your mods folder. Then start the game
 
-1. Edit build.gradle and mod.json to suit your needs.
-    * The "mixins" object can be removed from mod.json if you do not need to use mixins.
-    * Please replace all occurences of "modid" with your own mod ID - sometimes, a different string may also suffice.
-2. Run the following command:
-
-```
-./gradlew idea
-```
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+## Mod compatibility
+3D shareware, with the  version of the fabric mod loader mentioned above, has been tested and confirmed to work with  Modmenu 1.1.9-35
